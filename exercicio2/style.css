@@ -1,0 +1,128 @@
+@charset "8-UTF";
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@font-face {
+    font-family:'android';
+    src: url('font/IDroid\ Bold\ Italic.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+
+--cor0:#bdb5b5;
+--cor1:#E100FF;
+--cor2:#B300CC;
+--cor3:#773980;
+--cor4:#710080;
+
+   --fonte-padrao: Arial,Verdana, Helvetica sans-serif;
+   --fonte-destaque: 'Bree Serif', serif, cursiva;
+   --fonte-grafite:'android', cursiva;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-destaque);
+    
+}
+header {
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor4));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+   
+}
+header > h1 {
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-grafite);
+    margin-bottom:15px;/*tag para da um espaco na parte de cima do texto */
+    font-size:4em;/*tag serve para aumentar o tamanho das e grossura das letras*/
+
+
+}
+ header > p {
+     color: rgb(0, 0, 0);
+     font-size: 1.2em;
+     max-width: 500px;
+     padding: 10px;
+     margin: auto; /*tag serve para centralizar, tudo e vc pode personalizar do seu jeito*/
+
+ }
+
+ nav{
+    background-color: #710080;
+    padding: 10px;
+
+ }
+ nav > a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav > a:hover {
+    background-color:var(--cor1);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify; /* organixacao dos textos*/
+    text-indent: 25px; /* espaco de paragrafo*/
+    font-size: 1em; /*grossura dassa letras*/
+    line-height: 2em; /*espaco entre linhas*/
+    
+}
+
+
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor0);
+}
+
+main h2 {
+
+    font-family: var(--fonte-grafite);
+    font-size: 2em;
+    color: #870d97;
+  
+}
+
+
+footer{
+    background-color: var(--cor4);
+    color: aliceblue;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    height: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 10px 10px 15px rgba(3, 3, 3, 0.795);/*sombra nas bordas*/
+
+
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ /*elementos box-level*/
+
+            background-color: blueviolet;
+            height: 300px;
+            width: 300px;
+
+            border-color: black;
+            border-style: solid;
+
+           /* tambem podemos usar a tag (border) USANDO TUDO NA ORDEM HORARIO EX:border: black,Solid;*/
+
+
+            padding-top: 15px;
+            padding-right: 15px ;
+            padding-bottom: 15px;
+            padding-left: 15px;
+
+            /*quando todos os lados ou funcoes for igual pode ser colocado a tag (padding) EX:padding:15px*/
+
+
+
+              /*a tag padding e a margem da borda para dentro em cima,direita,em baixo, esquerda segui a ordem*/
+
+            margin-top: 30px;
+            margin-right: 25px;
+            margin-bottom: 25px;
+            margin-left: 30px;
+
+            outline-width: 5px;
+            outline-style: dotted;
+            outline-color: black;
+
+            /*a(tag autline) e para para fazer uma borda por fora da propia borda*/
+
+          
+        }
+
+        a { /*inline-level*/
+            
+            border-width: 4px;
+            border-style: solid;
+            border-color: rgb(119, 33, 119);
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplos de box-level</h1>
+    <p>paragarafo tambem sao exemplos de  box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a> vamos ver como funciona.</p>
+    
+</body>
+</html>

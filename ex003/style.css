@@ -1,0 +1,44 @@
+
+/*
+em HTML e id= em css e # ( com # so posso criar um elemento)
+em HTML e class= em css e . (com .posso criar varios elementos)*/
+
+
+body{
+  background-color:#9BE8D6;
+  font: arial;
+}
+
+h1#principal{
+
+    background-color: rgb(3, 29, 29);
+    border-radius: 9px;
+    width:500px;
+    margin:auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.521);
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
+}
+h1{
+    color: #296658;
+
+
+}
+h2{
+    color: rgb(32, 59, 59);
+
+}
+
+.basico{
+color:  ;
+
+}
+.interediario{
+color: ;
+}
+.avancado{
+    color: ;
+}
